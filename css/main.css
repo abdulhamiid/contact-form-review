@@ -43,7 +43,9 @@ header {
   color: white;
 }
 
-main {
+main,
+.footer,
+.form {
   display: flex;
   flex-direction: column;
 }
@@ -324,4 +326,45 @@ li {
 
 .skills {
   list-style: inside url("../media/svg/circle.svg");
+}
+
+.footer {
+  margin: 70px auto;
+  text-align: center;
+  color: #172B4D;
+}
+
+.form {
+  margin: 30px auto;
+  width: 80%;
+  align-items: center;
+}
+
+.form button {
+  background: #FF6B00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  font-family: 'Inter';
+  Width: 131px;
+  Height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.form > div {
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  padding: 12px;
+  width: 100%;
+  margin: 5px;
 }
