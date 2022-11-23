@@ -331,7 +331,7 @@ li {
 .footer {
   margin: 70px auto;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form {
@@ -341,13 +341,12 @@ li {
 }
 
 .form button {
-  background: #FF6B00;
+  background: #ff6b00;
   border: none;
   color: #fff;
   padding: 12px;
-  font-family: 'Inter';
-  Width: 131px;
-  Height: 48px;
+  width: 131px;
+  height: 48px;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
