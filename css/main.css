@@ -345,7 +345,7 @@ li {
   border: none;
   color: #fff;
   padding: 12px;
-  width: 131px;
+  width: 138px;
   height: 48px;
   font-style: normal;
   font-weight: 700;
@@ -353,6 +353,7 @@ li {
   line-height: 24px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -366,4 +367,19 @@ li {
   padding: 12px;
   width: 100%;
   margin: 5px;
+}
+
+.form button:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  width: 131px;
+  cursor: pointer;
+  border: 2px solid #ff6b00;
+  width: 138px;
+  height: 48px;
+}
+
+.form button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
